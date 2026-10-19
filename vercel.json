@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "headers": [
     {
-      "source": "/descargas/(.*)\.apk",
+      "source": "/descargas/(.*)",
       "headers": [
         { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
         { "key": "Content-Disposition", "value": "attachment" },
